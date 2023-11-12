@@ -1,5 +1,7 @@
 # Folio
 
+### Portfolio.Analyzed
+
 Folio is a comprehensive mobile app designed to provide a consolidated view of your stock and ETF portfolios. It offers features for trend analysis, anomaly detection, risk/return evaluations, and various statistical metrics. The app is built with React Native on Expo, with a Python Flask backend running on Google Cloud Run, and data storage on Google Firestore.
 
 ## Features
@@ -35,7 +37,7 @@ Folio is a comprehensive mobile app designed to provide a consolidated view of y
 1. **Start the Development Server:**
 
    ```bash
-   npm run start
+   expo start
    ```
 
    This will launch the app in your Expo development environment.
@@ -49,12 +51,13 @@ Folio is a comprehensive mobile app designed to provide a consolidated view of y
    - Navigate through the intuitive UI to access various features.
    - Analyze trends, detect anomalies, and evaluate statistical metrics for your portfolios.
 
-## Build
 
-To build the app for production, run the following command:
+## Build and Deploy
+
+To build and deploy the app to Expo for production, run the following command:
 
 ```bash
-npm run build
+eas update --channel production
 ```
 
-This will create a `build` folder with the optimized and minified production build of the app.
+This will update the app on Expo with the latest changes for production.
