@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Folio",
+    "slug": "folio",
+    "version": "3.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.gif",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1"
+    },
+    "android": {
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2da7a8e5-06c0-4a27-8bf5-b12318418b87"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2da7a8e5-06c0-4a27-8bf5-b12318418b87"
+    },
+    "owner": "s7chak"
+  }
+}
